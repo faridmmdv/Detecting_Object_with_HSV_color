@@ -3,7 +3,8 @@ import sys
 import os
 from util import get_limits
 from PIL import Image
-
+import pandas as pd
+import numps as np
 green = [0, 255, 0] # yellow in RGB colorspace
 cap = cv2.VideoCapture(1)  # Using the working camera index
 
